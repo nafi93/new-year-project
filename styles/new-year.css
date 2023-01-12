@@ -3,45 +3,51 @@
     font-family: Work Sans;
 }
 
+/* banner styles */
+
 .banner {
-    position: relative;
+    width: 100%;
+    height: 669px;
+    background-image: url(../images/banner/banner3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding: 10px;
     text-align: right;
-    justify-content: space-around;
 }
 
 .banner-title {
-    margin: 5px 5px 8px 10px;
-    position: absolute;
-    bottom: 400px;
-    left: 800px;
+    text-align: right;
+    font-size: 60px;
     font-weight: 700;
-    font-size: 50px;
-    text-align: right;
-    padding: 5px 80px;
-    color: #FFFFFF;
+    margin: 100px 60px 50px 800px;
 }
 
-.banner-description{
+.banner-quote {
     text-align: right;
-    margin: 5px;
-    gap: 5px;
-    position: absolute;
-    bottom: 300px;
-    left: 800px;
-    font-weight: 400;
     font-size: 15px;
-    color: #FFFFFF;
+    font-weight: 400;
+    margin: 20px 60px 30px 800px;
 }
 
-.btn-primary{
-    margin-top: 30px;
-    margin-right: 0;
-    position: absolute;
-    bottom: 100px;
-    left: 800px;
+/* banner button styles */
+
+.btn-primary {
+    color: #005FAC;
     font-weight: 600;
     font-size: 20px;
-    text-align: right;
-    padding: 20px;
-    color: #005FAC;
+    margin-right: 60px;
+    border: 0;
+    border-radius: 10px;
+    width: 160px;
+    height: 64px;
 }
+
+.btn-primary:hover {
+    color: white;
+    cursor: pointer;
+    background-color:rebeccapurple;
+}
+
+/* previous year section styles */
+
