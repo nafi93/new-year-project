@@ -49,23 +49,18 @@
     background-color: rebeccapurple;
 }
 
-/* main section */
-
-main {
-    max-width: 1072px;
-    margin: 0;
-}
 
 /* previous year section styles */
 
 .year {
+    max-width: 1072px;
     margin: 130px 250px;
     gap: 90px;
     display: flex;
     justify-content: center;
 }
 
-.section-text{
+.section-text {
     width: 400px;
 }
 
@@ -77,11 +72,82 @@ main {
     color: #151414;
 }
 
-.section-description{
+.section-description {
     width: 416px;
     margin-bottom: 16px;
 }
 
-.habit{
+.habit {
     width: 350px;
 }
+
+/* My plans style */
+
+.plans {
+    text-align: center;
+}
+
+.plan-title {
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 50px;
+    background-color: crimson;
+}
+
+.plan-info-container {
+    width: 1300px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+
+}
+
+.info-title {
+    margin-top: 10px;
+    font-weight: 700;
+    font-size: 20px;
+    color: #151414;
+}
+
+.info-description {
+    margin-top: 8px;
+    font-weight: 500;
+    font-size: 15px;
+    color: #737272;
+}
+
+/* positive banner styles */
+
+.positive-banner {
+    width: 1140px;
+    height: 300px;
+    margin: 130px;
+    border-radius: 10px;
+    background-image: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%), url(../images/watch.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: left;
+}
+
+.positive-text {
+    width: 450px;
+    padding: 80px 617px 45px 64px;
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+}
+
+.btn-second {
+    width: 120px;
+    height: 50px;
+    color: #005FAC;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 10px;
+    border-style: none;
+    margin: 5px 64px;
+}
+
+/* footer styles */
+
