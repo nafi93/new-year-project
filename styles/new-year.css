@@ -46,8 +46,42 @@
 .btn-primary:hover {
     color: white;
     cursor: pointer;
-    background-color:rebeccapurple;
+    background-color: rebeccapurple;
+}
+
+/* main section */
+
+main {
+    max-width: 1072px;
+    margin: 0;
 }
 
 /* previous year section styles */
 
+.year {
+    margin: 130px 250px;
+    gap: 90px;
+    display: flex;
+    justify-content: center;
+}
+
+.section-text{
+    width: 400px;
+}
+
+.section-title {
+    width: 288px;
+    margin-bottom: 24px;
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+}
+
+.section-description{
+    width: 416px;
+    margin-bottom: 16px;
+}
+
+.habit{
+    width: 350px;
+}
