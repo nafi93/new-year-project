@@ -17,6 +17,7 @@
 }
 
 .banner-title {
+    color: palegreen;
     text-align: right;
     font-size: 60px;
     font-weight: 700;
@@ -24,10 +25,15 @@
 }
 
 .banner-quote {
+    color: #FFFFFF;
     text-align: right;
     font-size: 15px;
     font-weight: 400;
     margin: 20px 60px 30px 800px;
+}
+
+.color-name {
+    color: cyan;
 }
 
 /* banner button styles */
@@ -43,10 +49,10 @@
     height: 64px;
 }
 
-.btn-primary:hover {
+button:hover {
     color: white;
     cursor: pointer;
-    background-color: rebeccapurple;
+    background-color: limegreen;
 }
 
 
@@ -65,6 +71,7 @@
 }
 
 .section-title {
+    color: #FFFFFF;
     width: 288px;
     margin-bottom: 24px;
     font-weight: 700;
@@ -79,6 +86,30 @@
 
 .habit {
     width: 350px;
+}
+
+/* have to do styles */
+
+
+.going-to-do{
+    max-width: 1100px;
+    margin: 130px 250px;
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+}
+
+.going-title{
+    font-size: 40px;
+    font-weight: 700;
+    border-style: inset;
+    background-color:springgreen;
+}
+
+.going-description{
+    margin-top: 20px;
+    font-size: 20px;
 }
 
 /* My plans style */
@@ -123,7 +154,7 @@
     height: 300px;
     margin: 130px;
     border-radius: 10px;
-    background-image: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%), url(../images/watch.png);
+    background: url(../images/gradient1.png), url(../images/watch.png);
     background-repeat: no-repeat;
     background-size: cover;
     text-align: left;
@@ -149,5 +180,71 @@
     margin: 5px 64px;
 }
 
+
 /* footer styles */
 
+.footer {
+    width: 1600px;
+    height: 580px;
+    background: #151414;
+    color: #FFFFFF;
+    display: flex;
+}
+
+.future {
+    width: 485px;
+    padding: 130px;
+    color: #FFFFFF;
+}
+
+.future-title {
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 16px;
+}
+
+.future-description {
+    margin-bottom: 24px;
+}
+
+.email {
+    margin-bottom: 16px;
+}
+
+.number {
+    margin-bottom: 32px;
+}
+
+.icons {
+    margin-right: 10px;
+}
+
+.subscribe {
+    width: 325px;
+}
+
+.subscribe-title{
+    padding-top: 130px;
+    font-weight: 600;
+    font-size: 25px;
+    color: #FFFFFF;
+}
+
+textarea{
+    margin-top: 18px;
+    margin-bottom: 16px;
+    width: 325px;
+    height: 32px;
+    text-align: left;
+    padding: 20px;
+    border-radius: 8px;
+    color: #FFFFFF;
+    background: #151414;
+}
+
+.btn-third {
+    background: #005FAC;
+    width: 120px;
+    height: 50px;
+    border-radius: 10px;
+}
